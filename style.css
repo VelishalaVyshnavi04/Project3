@@ -1,0 +1,71 @@
+.
+{
+    box-sizing:border-box;
+    padding:0 rem;
+    margin:0;
+}
+h1{
+    color:red;
+    text-align:center;
+}
+.btn
+{
+    position:fixed;
+    right:0;
+    padding:0.4rem;
+    width:4rem;
+    background:lightgreen;
+    color:black;
+    font-size:1rem;
+    outline:none;
+    cursor:pointer;
+    height:90vh; 
+
+}
+.btn:hover{
+    color:black;
+    background-color:white;
+}
+
+.maineditor
+{
+    background:white;
+    display:flex;
+    width:100%;
+    padding:1rem;
+    box-shadow:0 2px 3px black;
+    position:fixed;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    border:7px solid grey;
+
+}
+
+.first
+{
+    background-color:lightskyblue;
+    width:45%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    white-space:pre;
+    box-shadow:0 1px 1px black;
+    outline:none;
+    padding:0.6rem;
+    height:88vh;
+
+}
+.second
+{
+    background-color:white;
+    width:50%;
+    overflow-y:auto;
+    white-space:pre;
+    right:0;
+    box-shadow:0 1px 1px black;
+    padding:0.6 rem;
+    height:90vh;
+
+
+
+}
